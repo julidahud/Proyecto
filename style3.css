@@ -10,3 +10,11 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+header h1 {
+    margin-bottom: 10;
+    font-size: 2rem;
+}
+
+nav{
+    margin-top: 10px;
+}
