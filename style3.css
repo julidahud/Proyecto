@@ -18,3 +18,23 @@ header h1 {
 nav{
     margin-top: 10px;
 }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #f5a623;
+}
+main{
+    max-width: 1200px;
+    margin: 30px auto ;
+    padding: 0 20px;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
