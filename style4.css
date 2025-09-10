@@ -20,6 +20,10 @@ header h1{
   font-size: 1.8rem;
   color: #ff6600;
 }
+nav{
+    display: flex;
+    gap: 20px;
+}
 .contacto{
     max-width: 800px;
     margin: 40px auto;
