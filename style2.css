@@ -137,13 +137,22 @@ nav a.active{
     border-radius: 10px;
 }
 
-.Menú-btn{
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
+.card h3{
+    margin: 15px 0 10px;
+    color: #ff6600;
+}
+
+.card p{
+    font-size: 14px;
+    color: #ddd;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color:#aaa;
+    margin-top: 40px;
 }
 
 .Título{
