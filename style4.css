@@ -30,6 +30,10 @@ nav a{
     font-weight: bold;
     transition: 0.3s;
 }
+nav a :hover,
+nav a :active{
+    color: #ff6600;
+}
 .contacto{
     max-width: 800px;
     margin: 40px auto;
