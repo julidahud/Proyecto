@@ -69,3 +69,8 @@ footer h2 {
 .hero {
   margin-bottom: 40px;
 }
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
