@@ -12,5 +12,7 @@
 }
 .contacto input
 .contacto textarea{
-    
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
 }
