@@ -5,5 +5,8 @@
     text-align: center;
 }
 .contacto form{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
 }
