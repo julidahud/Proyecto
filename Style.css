@@ -93,3 +93,9 @@ footer h2 {
 .btn:hover {
   background: #ff8533;
 }
+
+.imagenes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
