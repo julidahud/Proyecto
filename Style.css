@@ -59,3 +59,9 @@ footer {
 footer h2 {
     font-size: 1.5rem;
 }
+.inicio {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
