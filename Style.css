@@ -23,3 +23,15 @@ body {
     font-size: 1.1rem;
     transition: color 0.3s ease;
 }
+
+.menu a:hover {
+    color: #f39c12;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px;
+}
