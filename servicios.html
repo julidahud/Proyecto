@@ -7,29 +7,64 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <section>
-        <div class="Menú">
-            <a href="index.html">Inicio</a>
-            <a href="Caracteristicas.html">Características</a>
-            <a href="contacto.html">Contacto</a>   
-        </div>
-        <div class="Título">
-            <h1>Servicios</h1>
-        </div>
-        <div class="Servicios">
-            <h3>Corte de metales</h3>
-            <img src="imagen/cortemetales.jpg" alt="Corte de metales">
-            <h3>Fabricación de estructuras metálicas</h3>
-            <img src="imagen/fabricacion-de-estructuras-metalicas.webp" alt="Estructuras metálicas">
-            <h3>Plegado de chapa</h3>
-            <img src="imagen/plegadochapa.jpg" alt="Plegado de chapa">
-            <h3>Soldadura</h3>
-            <img src="imagen/img_75382_soldadura.jpg" alt="Soldadura">
-            <h3>Torneado y fresado</h3>
-            <img src="imagen/cnc-milling-vs-turning-applications.jpg.webp" alt="Torneado">
-            <h3>Montaje Industrial</h3>
-            <img src="imagen/montaje-ferigutti-sales-1.jpg" alt="Montaje Industrial">
-        </div>
-    </section>
+    <header>
+        <h1>Metalúrgica</h1>
+        <button class="Menú-btn">≡</button> 
+        <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="Caracteristicas.html">Características</a>
+        <a href="contacto.html">Contacto</a>
+        </nav>   
+    </header> 
+
+    <main>
+        <section class="Servicios">
+            <h2>Nuestros servicios</h2>
+            <p>Conocé lo que ofrecemos en herrería y metalúrgica.</p>
+
+            <div class="grid-servicios">
+                <div class="card">
+                    <img src="imagen/cortemetales.jpg" alt="Corte de metales">
+                    <h3>Corte de metales</h3>           
+                    <p>Precisión en corte por plasma, láser y oxicorte.</p> 
+                </div>
+
+                <div class="card">
+                    <img src="imagen/fabricacion-de-estructuras-metalicas.webp" alt="Estructuras metálicas">
+                    <h3>Fabricación de estructuras metálicas</h3>
+                    <p>Construcción de estructuras resistentes y seguras.</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagen/plegadochapa.jpg" alt="Plegado de chapa">
+                    <h3>Plegado de chapa</h3>
+                    <p>Chapas moldeadas con precisión y resistencia.</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagen/img_75382_soldadura.jpg" alt="Soldadura">
+                    <h3>Soldadura</h3>
+                    <p>Uniones firmes con soldadura MIG, TIG y eléctrica.</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagen/cnc-milling-vs-turning-applications.jpg.webp" alt="Torneado">
+                    <h3>Torneado y fresado</h3>
+                    <p>Piezas con mecanizado de precisión</p>
+                </div>
+                
+                <div class="card">
+                    <img src="imagen/montaje-ferigutti-sales-1.jpg" alt="Montaje Industrial">
+                    <h3>Montaje Industrial</h3>
+                    <p>Instalación y ajuste de estructuras metálicas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <p>© 2024 Metalúrgica - Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
