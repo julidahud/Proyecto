@@ -34,6 +34,14 @@ nav a :hover,
 nav a :active{
     color: #ff6600;
 }
+.menu-btn{
+      display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
 .contacto{
     max-width: 800px;
     margin: 40px auto;
