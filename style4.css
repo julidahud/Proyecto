@@ -60,3 +60,6 @@ nav a :active{
     border: none;
     border-radius: 8px;
 }
+.contacto textarea {
+  resize: none;
+}
