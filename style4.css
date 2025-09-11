@@ -73,3 +73,6 @@ nav a :active{
   cursor: pointer;
   transition: 0.3s;
 }
+.contacto button:hover{
+    background: #ff8533;
+}
