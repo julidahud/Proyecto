@@ -63,3 +63,13 @@ nav a :active{
 .contacto textarea {
   resize: none;
 }
+.contacto button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
