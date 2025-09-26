@@ -8,6 +8,7 @@ body{
     background: #111;
     color: #f5f5f5;
     line-height: 1.6;
+    animation: fadeIn 1s ease-in-out;
 }
 header {
   display: flex;
@@ -18,7 +19,7 @@ header {
 }
 header h1{
   font-size: 1.8rem;
-  color: #ff6600;
+  color: #8dd30c;
 }
 nav{
     display: flex;
@@ -32,7 +33,7 @@ nav a{
 }
 nav a:hover,
 nav a:active{
-    color: #ff6600;
+    color: #8dd30c;
 }
 .menu-btn{
       display: none;
@@ -76,7 +77,7 @@ nav a:active{
   resize: none;
 }
 .contacto button {
-  background: #ff6600;
+  background: #8dd30c;
   color: white;
   border: none;
   padding: 12px;
@@ -86,7 +87,7 @@ nav a:active{
   transition: 0.3s;
 }
 .contacto button:hover{
-    background: #ff8533;
+    background: #8dd30c;
 }
 .info {
     margin-top: 30px;
@@ -116,4 +117,8 @@ footer{
     .menu-btn{
         display: block;
     }
+}
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
