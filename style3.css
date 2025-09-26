@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 header h1 {
-    color: #2f2c79;
+    color: #d81b60;
     margin-bottom: 10;
     font-size:  1.8 rem;
 }
@@ -27,7 +27,7 @@ nav a {
     transition: color 0.3s ease;
 }
 nav a:hover {
-    color: #2f2c79;
+    color: #d81b60;
 }
 main{
     max-width: 1200px;
@@ -53,7 +53,7 @@ article:hover {
 
 
 article h3 {
-    color: #fafafa;
+    color: #d81b60;
     margin-bottom: 10px;
 }
 
@@ -63,7 +63,7 @@ article p {
 }
 
 article strong {
-    color: #b10862;
+    color: #d81b60;
 }
 footer {
     background-color: #223838;
