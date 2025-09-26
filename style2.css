@@ -40,7 +40,7 @@ body {
 
 .card h3{
     margin: 15px 0 10px;
-    color: #ff6600;
+    color: #d81b60;
 }
 
 .card p{
@@ -71,7 +71,7 @@ header{
 
 header h1{
     font-size: 1.8rem;
-    color: #ff6600;
+    color: #d81b60;
 }
 
 nav{
@@ -88,7 +88,7 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: #ff6600;
+    color: #d81b60;
 }
 
 .menu-btn{
@@ -108,7 +108,7 @@ nav a.active{
 }
 
 .Servicios h2 {
-    color: #ff6600;
+    color: #d81b60;
 }
 
 .grid-servicios{
@@ -139,7 +139,7 @@ nav a.active{
 
 .card h3{
     margin: 15px 0 10px;
-    color: #ff6600;
+    color: #d81b60;
 }
 
 .card p{
