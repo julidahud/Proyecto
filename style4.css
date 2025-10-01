@@ -97,6 +97,23 @@ nav a:active{
     margin-top: 30px;
     text-align: center;
 }
+.form input,
+.form textarea {
+  position: relative;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #aaa;
+  transition: 0.3s ease;
+  transform-origin: left;
+}
+.form input:focus::placeholder,
+.form textarea:focus::placeholder {
+  transform: translateY(-18px) scale(0.8);
+  opacity: 0.7;
+  color: #d81b60;
+}
 footer{
   text-align: center;
   padding: 20px;
