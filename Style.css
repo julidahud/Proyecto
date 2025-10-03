@@ -21,7 +21,7 @@ body {
 .hero h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #2f2c79;
+  color: #d81b60;
 }
 
 .hero p {
@@ -32,7 +32,7 @@ body {
 .btn {
   display: inline-block;
   padding: 12px 20px;
-  background: #2f2c79;
+  background: #d81b60;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -40,7 +40,7 @@ body {
 }
 
 .btn:hover {
-  background: #2f2c79;
+  background: #d81b60;
 }
 
 .imagenes {
@@ -86,7 +86,7 @@ header {
 
 header h1 {
   font-size: 1.8rem;
-  color: #2f2c79;
+  color: #d81b60;
 }
 
 nav {
@@ -102,7 +102,7 @@ nav a {
 }
 nav a:hover,
 nav a.active {
-  color: #2f2c79;
+  color: #d81b60;
 }
 
 .menu-btn {
