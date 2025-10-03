@@ -18,6 +18,10 @@ body {
 
 .hero {
   margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.8s ease forwards;
+  animation-delay: 0.3s;
 }
 .hero h2 {
   font-size: 2rem;
