@@ -83,18 +83,6 @@ header h1{
     color: #d81b60;
 }
 
-nav{
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background: #222;
-    padding: 15px;
-    border-radius: 15px;
-    gap: 10px;
-}
-
 nav a{
     color: white;
     text-decoration: none;
@@ -181,6 +169,7 @@ footer{
         background: #222;
         padding: 15px;
         border-radius: 8px;
+        gap: 10px;
     }
     nav.active{
         display: flex;
