@@ -131,20 +131,7 @@ footer{
   color: #aaa;
   margin-top: 40px;
 }
-@media (max-width: 768) {
-    nav{
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background: #222;
-    padding: 15px;
-    border-radius: 8px;
-    }
 
-
-}
 @keyframes fadeIn{
     from {opacity: 0;}
     to {opacity: 1;}
