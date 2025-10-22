@@ -83,11 +83,6 @@ header h1{
     color: #d81b60;
 }
 
-nav{
-    display: flex;
-    gap: 20px;
-}
-
 nav a{
     color: white;
     text-decoration: none;
@@ -101,7 +96,7 @@ nav a.active{
 }
 
 .menu-btn{
-    display: none;
+    display: block;
     font-size: 28px;
     background: none;
     border: none;
@@ -164,23 +159,23 @@ footer{
     margin-top: 40px;
 }
 
-@media (max-width:768px){
-    nav{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        background: #222;
-        padding: 15px;
-        border-radius: 8px;
-    }
-    nav.active{
+nav{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+nav.active{
         display: flex;
-    }
-    .menu-btn{
-        display: block;
-    }
+}
+
+@media (max-width:768px){
     .imagenes{
         grid-template-columns: 1fr;
     }
