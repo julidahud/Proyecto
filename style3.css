@@ -133,7 +133,7 @@ footer {
 }
 
 .menu-btn {
-    display: none;
+    display: block;
     background: none;
     border: 2px solid #d81b60;
     color: #d81b60;
