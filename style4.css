@@ -50,7 +50,7 @@ nav a:active{
     color: #d81b60;
 }
 .menu-btn{
-   display: none;
+   display: block;
   font-size: 28px;
   background: none;
   border: none;
@@ -143,9 +143,7 @@ footer{
     border-radius: 8px;
     }
 
-    .menu-btn{
-        display: block;
-    }
+
 }
 @keyframes fadeIn{
     from {opacity: 0;}
