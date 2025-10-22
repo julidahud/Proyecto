@@ -133,6 +133,13 @@ nav a.active {
   color: white;
   cursor: pointer;
 }
+footer{
+    text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #aaa;
+  margin-top: 40px
+}
 
 @keyframes fadeIn {
   from { opacity: 0; }
