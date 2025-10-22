@@ -36,6 +36,9 @@ nav{
     border-radius: 8px;
     gap: 10px;
 }
+.nav.active{
+  display: flex;
+}
 nav a{
     color: white;
     text-decoration: none;
