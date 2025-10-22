@@ -110,6 +110,9 @@ nav {
   border-radius: 8px;
   gap: 10px; 
 }
+.nav.active {
+  display: flex;
+}
 
 nav a {
   color: white;
@@ -123,7 +126,7 @@ nav a.active {
 }
 
 .menu-btn {
-  display: none;
+  display: block;
   font-size: 28px;
   background: none;
   border: none;
