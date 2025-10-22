@@ -36,7 +36,9 @@ nav{
     border-radius: 8px;
     gap: 10px;
 }
-
+    nav.active{
+        display: flex;
+    }
 nav a{
     color: white;
     text-decoration: none;
@@ -48,7 +50,7 @@ nav a:active{
     color: #d81b60;
 }
 .menu-btn{
-      display: none;
+   display: none;
   font-size: 28px;
   background: none;
   border: none;
@@ -140,9 +142,7 @@ footer{
     padding: 15px;
     border-radius: 8px;
     }
-    nav.active{
-        display: flex;
-    }
+
     .menu-btn{
         display: block;
     }
