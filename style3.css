@@ -5,47 +5,52 @@ body {
     margin: 0;
     padding: 0;
     animation: fadeIn 1s ease-in-out;
-
 }
+
 header {
-    background: #222;
-    padding: 20px 0;
-    text-align: center;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: slideDown 0.8s ease forwards;
-    animation-delay: 0.2s;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 5px 10px;
 
 }
+
 header h1 {
     color: #d81b60;
     margin-bottom: 10px;
-    font-size:  1.8rem;
+    font-size: 1.8rem;
+    text-align: left;
 }
 
-nav{
+nav {
     margin-top: 10px;
 }
+
 nav a {
-    color:white;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
+
 nav a:hover {
     color: #d81b60;
 }
-main{
+
+main {
     max-width: 1200px;
-    margin: 30px auto ;
+    margin: 30px auto;
     padding: 0 20px;
 }
+
 section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
+
 article {
     background: rgb(44, 44, 44);
     padding: 20px;
@@ -55,13 +60,12 @@ article {
     opacity: 0;
     transform: translateY(20px) scale(0.95);
     animation: slideUp 0.8s ease forwards;
-
 }
+
 article:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
 }
-
 
 article h3 {
     color: #d81b60;
@@ -76,6 +80,7 @@ article p {
 article strong {
     color: #d81b60;
 }
+
 footer {
     background-color: #223838;
     color: white;
@@ -87,8 +92,8 @@ footer {
     transform: translateY(20px);
     animation: fadeUp 1s ease forwards;
     animation-delay: 1.6s;
-
 }
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -124,5 +129,61 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
+    }
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: 2px solid #d81b60;
+    color: #d81b60;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu-btn:hover {
+    background: #d81b60;
+    color: #fff;
+}
+
+.nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 10px;
+    animation: fadeMenu 0.4s ease;
+}
+
+.nav.active {
+    display: flex; 
+}
+
+@keyframes fadeMenu {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 768px) {
+    nav a {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
 }
