@@ -1,27 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #111;
-    color: #f5f5f5;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    animation: fadeIn 1s ease-in-out;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #222;
-    padding: 20px 0;
+    background-color: #223838;
+    color: white;
+    padding: 20px;
     text-align: center;
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: slideDown 0.8s ease forwards;
-    animation-delay: 0.2s;
-    position: relative; 
+    position: relative;
 }
 
-header h1 {
-    color: #d81b60;
-    margin-bottom: 10px;
-    font-size: 1.8rem;
+h1 {
+    margin: 0;
 }
 
 nav {
@@ -41,151 +34,34 @@ nav a:hover {
 }
 
 main {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 article {
-    background: rgb(44, 44, 44);
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(189, 187, 187, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    opacity: 0;
-    transform: translateY(20px) scale(0.95);
-    animation: slideUp 0.8s ease forwards;
-}
-
-article:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
-}
-
-article h3 {
-    color: #d81b60;
-    margin-bottom: 10px;
-}
-
-article p {
-    margin-bottom: 8px;
-    color: #fafafa;
-}
-
-article strong {
-    color: #d81b60;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: calc(33.33% - 20px);
 }
 
 footer {
     background-color: #223838;
     color: white;
     text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-    font-size: 0.9rem;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeUp 1s ease forwards;
-    animation-delay: 1.6s;
+    padding: 10px;
+    margin-top: 20px;
 }
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px) scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .menu-btn {
     display: none;
     background: none;
     border: 2px solid #d81b60;
     color: #d81b60;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
-
-.menu-btn:hover {
-    background: #d81b60;
-    color: #fff;
-}
-
-.nav {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    background: #222;
-    padding: 15px;
-    border-radius: 8px;
-    gap: 10px;
-    animation: fadeMenu 0.4s ease;
-}
-
-.nav.active {
-    display: flex; 
-}
-
-@keyframes fadeMenu {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@media (max-width: 768px) {
-    nav a {
-        display: none;
-    }
-    .menu-btn {
-        display: block;
-    }
+    padding: 8px 12
 }
