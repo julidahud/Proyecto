@@ -83,9 +83,8 @@ nav a:active{
 .contacto input:focus,
 .contacto textarea:focus {
     background-color: #3a3a3a;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
-    outline: none;
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(174, 0, 255, 0.3);
 }
 .contacto textarea {
   resize: none;
@@ -110,19 +109,20 @@ nav a:active{
 .form input,
 .form textarea {
   position: relative;
+  padding: 12px;
 }
 
 .form input::placeholder,
 .form textarea::placeholder {
   color: #aaa;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
   transform-origin: left;
 }
 .form input:focus::placeholder,
 .form textarea:focus::placeholder {
-  transform: translateY(-18px) scale(0.8);
+  transform: translateY(-10px) scale(1);
   opacity: 0.7;
-  color: #d81b60;
+  color: #aaa;
 }
 footer{
   text-align: center;
