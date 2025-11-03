@@ -21,9 +21,18 @@
         <h2>Contacto</h2>
         <p>Dejanos tu comentario, responderemos en breve</p>
         <form class="form">
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu email">
-            <textarea rows="5" placeholder="Escribe un mensaje" required></textarea>
+            <div class="contenido">
+                <label class="etiqueta" for="nombre">Nombre</label>
+                <input class="redondeado" type="text" placeholder="Tu nombre" required>
+            </div>
+            <div class="contenido">
+            <label class="etiqueta" for="email">Tu email</label>  
+            <input class="redondeado" type="email" placeholder="Tu email">
+            </div>
+            <div class="contenido">
+            <label class="etiqueta" for="mensaje">Tu mensaje</label>
+            <textarea class="redondeado" cols="100" rows="10" placeholder="Escribe un mensaje" required></textarea>
+            </div>
             <button type="submit">Enviar</button>
         </form>
         <div class="info">
